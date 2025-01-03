@@ -154,9 +154,9 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "boto3", extras = ["crt"], specifier = ">=1.35.90" },
-    { name = "httpx", extras = ["brotli", "http2"], specifier = ">=0.28.1" },
-    { name = "tinycss2", specifier = ">=1.4.0" },
+    { name = "boto3", extras = ["crt"], specifier = "==1.35.91" },
+    { name = "httpx", extras = ["brotli", "http2"], specifier = "==0.28.1" },
+    { name = "tinycss2", specifier = "==1.4.0" },
 ]
 
 [[package]]
